@@ -1,17 +1,15 @@
 package HomeWork1;
 
-import java.util.Base64;
-
 public class Task7 {
-    public static void main(String[] args) {
-        String result1, result2;
-
-        result1 = toBinaryString((byte)6);
-        result2 = toBinaryString((byte)-6);
-
-        System.out.println("first - " + result1);
-        System.out.println("second - " + result2);
-    }
+//    public static void main(String[] args) {
+//        String result1, result2;
+//
+//        result1 = toBinaryString((byte)6);
+//        result2 = toBinaryString((byte)-6);
+//
+//        System.out.println("first - " + result1);
+//        System.out.println("second - " + result2);
+//    }
 
     public static String toBinaryString(byte number) {
 
